@@ -1,73 +1,111 @@
-# Awesome-Contextual-Lead-User-Activity-Alerts
+# Awesome Contextual Lead & User Activity Alerts [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-## Top Contextual Lead & User Activity Alerts Ecosystem
+> A curated list of leading SaaS products and open-source GitHub projects for B2B website visitor deanonymization, account-based buying intent detection, and real-time sales alert orchestration.
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
-*Focused on Website Visitor Deanonymization, Buying-Intent Signals & Real-Time Lead Alerts*  
-**Last updated: March 2026**
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Contextual Lead & User Activity Alerts**. These tools identify anonymous website visitors, detect buying-intent signals from user behavior, and trigger real-time alerts to sales teams—enabling timely outreach to accounts that are actively researching solutions.
-
-**Examples** include 6sense, Demandbase, Leadfeeder (Dealfront), Albacross, Clearbit Reveal (HubSpot Breeze), Factors.ai, Lead Forensics, Snitcher, UserGems, and Zoho Signals (the category leaders).
-
-**Open-source emphasis**: This section highlights every major active project for self-hosted visitor identification, open-source intent scoring, and community-driven lead enrichment—ideal for organizations seeking data sovereignty and predictable costs over per-visitor SaaS pricing.
-
-Contributions welcome! Open an PR to add/update entries. Keep descriptions factual and link to official sites.
-
-## Table of Contents
-- [SaaS/Hosted Platforms](#saas-products)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer](#disclaimer)
-
-## SaaS/Hosted Platforms
-
-| Product | Description | Pricing (Starting) | Free Tier / Trial Limits |
-|---------|-------------|-------------------|--------------------------|
-| **[6sense](https://6sense.com/)** | ABM platform with predictive buying-intent data, account identification, and orchestration. Enterprise-focused with deep intent modeling across web, third-party, and CRM signals . | Quote-only (enterprise contract; typically six-figure annual) | No free tier; demo via sales . |
-| **[Demandbase](https://www.demandbase.com/)** | Account-based marketing and advertising platform with intent data and visitor identification. Competes with 6sense for enterprise ABM budgets . | Quote-only (enterprise contract) | No free tier; demo via sales . |
-| **[Leadfeeder (Dealfront)](https://www.leadfeeder.com/)** | Website visitor identification using Google Analytics data. Shows which companies visit your site, what pages they view, and how they found you. SMB-focused with transparent pricing . | From ~$139/month (annual, per company) | **14-day free trial** available; no permanent free tier . |
-| **[Albacross](https://www.albacross.com/)** | B2B visitor identification and intent data, strong in EU markets. Shows company-level visits and intent signals with GDPR-focused positioning . | Quote-only (per-company pricing) | Free trial available; no permanent free tier . |
-| **[Clearbit Reveal (HubSpot Breeze)](https://www.hubspot.com/)** | Company-level visitor identification for HubSpot customers. Real-time reveal of visiting companies with firmographic enrichment. Acquired by HubSpot and folded into Breeze Intelligence . | Included with HubSpot Sales Hub Professional+ | No separate free tier; HubSpot free tools do not include Reveal . |
-| **[Factors.ai](https://factors.ai/)** | Product-led growth analytics with visitor identification, account-level intent scoring, and funnel analytics. Combines analytics with firmographic identification . | Quote-only (per-account pricing) | Free trial available; no permanent free tier . |
-| **[Lead Forensics](https://www.leadforensics.com/)** | Website visitor tracking with company identification, contact discovery, and intent scoring. Long-established player with global IP matching . | Quote-only (annual contract) | No free trial; demo via sales . |
-| **[Snitcher](https://www.snitcher.com/)** | Website visitor identification for B2B with real-time alerts and CRM integration. Positioned as simpler and more affordable than enterprise ABM platforms . | Quote-only (per-company) | Free trial available; no permanent free tier . |
-| **[UserGems](https://www.usergems.com/)** | Tracks job changes and buying signals from existing contacts. Alerts when former champions or customers move to new companies . | Quote-only (per-seat) | No free tier; demo via sales . |
-| **[Zoho Signals](https://www.zoho.com/)** | Buying-intent and activity alerts within the Zoho CRM ecosystem. Surfaces account activity and engagement signals for sales follow-up (limited public documentation available). | Included with Zoho CRM paid plans | No separate free tier; requires Zoho CRM subscription . |
-
-## Open-Source GitHub Projects
-
-| Project | Star Badge | Description |
-|---------|------------|-------------|
-| **[FORGE (dataforge)](https://github.com/Nuclear-Marmalade/dataforge)** | [![Stars](https://img.shields.io/github/stars/Nuclear-Marmalade/dataforge?style=social&color=white)](https://github.com/Nuclear-Marmalade/dataforge/stargazers) | Free open-source business data enrichment engine positioned as an alternative to Apollo, ZoomInfo, and Clearbit. Enriches business databases using free data sources and local AI. Scrapes websites for emails and tech stacks, imports government records (FCC, NPI, SAM.gov), verifies emails via SMTP, and optionally generates AI summaries with Ollama. No API keys or accounts required . |
-| **[intent-engine](https://github.com/aria-agentworks/intent-engine)** | [![Stars](https://img.shields.io/github/stars/aria-agentworks/intent-engine?style=social&color=white)](https://github.com/aria-agentworks/intent-engine/stargazers) | Open-source lead generation and buying-intent scoring workspace. Covers research, signal detection, and outreach automation with an intent-focused workflow . |
-
-### Additional Strong Open-Source Options
-
-| Project | Star Badge | Description |
-|---------|------------|-------------|
-| **[looot-crm](https://github.com/loootai/looot-crm)** | [![Stars](https://img.shields.io/github/stars/loootai/looot-crm?style=social&color=white)](https://github.com/loootai/looot-crm/stargazers) | Open-source CRM with buying-intent signals built in. Companies, people, pipeline board, and an Intent tab per account. Built on Next.js and Supabase with row-level security . |
-| **[Open Visitor ID (B2B)](https://github.com/topics/visitor-tracking)** | — | Community project listed on GitHub topics as "Free B2B Website Visitor Identification - Open Source Alternative to Leadfeeder & Leadinfo" (TypeScript). Exact repository URL not confirmed in search results . |
-| **[p2pblocklists (IP to Company Lookup)](https://github.com/f1lby/p2pblocklists)** | [![Stars](https://img.shields.io/github/stars/f1lby/p2pblocklists?style=social&color=white)](https://github.com/f1lby/p2pblocklists/stargazers) | Massive IPv4 address mapping project (3+ billion addresses) enabling reverse IP-to-organization lookup. Can be used as a foundational layer for self-hosted visitor deanonymization, though it requires significant engineering to operationalize . |
-
-**Frameworks for building custom systems**: Combine **FORGE** for business data enrichment, **p2pblocklists** for IP-to-company mapping, and **looot-crm** for intent tracking within a CRM—creating a basic self-hosted visitor identification pipeline. Note that person-level identification remains extremely difficult with open-source tooling; most projects operate at company level.
-
-## How to Contribute
-
-1. Fork the repo.
-2. Add/edit entries in `README.md` (follow existing format).
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-4. Submit PR with a short explanation.
-
-Star the repo if you find it useful!
-
-## Disclaimer
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-- Visitor identification and intent tracking involve processing personal and behavioral data; ensure compliance with GDPR, CCPA, and other applicable privacy regulations. Person-level identification in EU jurisdictions requires explicit privacy review before deployment [citation:1][citation:7].
-- Open-source alternatives to commercial visitor identification remain limited. Company-level identification is feasible with IP mapping and enrichment; person-level identification (matching a visitor to a specific LinkedIn profile) is not reliably achievable with current open-source tooling. Commercial platforms charge significant premiums for this capability.
+**Contextual Lead & User Activity Alerts** bridge the gap between anonymous web traffic and active sales outreach. By resolving corporate IP addresses, tracking high-intent behavioral actions (pricing visits, docs exploration, feature clicks), and enriching account records, these systems push actionable buying signals straight to Slack, CRM, and sales pipelines when prospects are in-market.
 
 ---
 
-**Made for sales teams, revenue operations, marketing analysts, and developers building intent-signal infrastructure.**  
-Let's make contextual lead alerts more open, privacy-conscious, and actionable.
+## Table of Contents
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
+- [SaaS & Hosted Platforms](#saas--hosted-platforms)
+- [Open-Source GitHub Projects](#open-source-github-projects)
+- [Key Features & Evaluation Criteria](#key-features--evaluation-criteria)
+- [How to Build a Self-Hosted Intent Stack](#how-to-build-a-self-hosted-intent-stack)
+- [How to Contribute](#how-to-contribute)
+- [Privacy & Compliance](#privacy--compliance)
+
+---
+
+## Sector Overview & Market Dynamics
+
+The global B2B buyer intent data and account-based marketing (ABM) market is currently valued at approximately **$2.5B – $3.5B** and is projected to expand at a **11% – 16% CAGR** toward **$7B+ by the mid-2030s**. The industry exhibits **moderate fragmentation**: top enterprise revenue platforms (HubSpot, 6sense, Demandbase, Zoho) command large shares of total contract value via bundled GTM suites, while a dynamic long-tail of agile point solutions and self-serve visitor identification platforms thrive across mid-market and SMB segments.
+
+---
+
+## SaaS & Hosted Platforms
+
+| Product | Company Size / Scale (Valuation / Revenue) | Description | Starting Pricing Tier | Free Tier / Trial Limits |
+| :--- | :--- | :--- | :--- | :--- |
+| **[HubSpot (Clearbit / Breeze)](https://www.hubspot.com/products/breeze/intelligence)** | ~$30B+ Market Cap / $2.5B+ ARR | Enterprise CRM & marketing automation platform; integrates Clearbit IP-to-company deanonymization and Breeze Buyer Intent natively. | **$20/user/mo** (Starter Core Seat; $10/1k Breeze credit packs) | **No permanent free tier** for Buyer Intent; 14-day free trial on select Hub plans (500 free credits on paid Starter). |
+| **[Zoho Signals / SalesIQ](https://www.zoho.com/salesiq/)** | Privately Held / $1.4B+ ARR (Bootstrapped) | Real-time visitor activity alerts and live customer engagement native to the Zoho CRM ecosystem. | **$7/operator/mo** (SalesIQ billed annually; $23/user/mo for Zoho CRM Professional) | **Free forever plan** (up to 3 operators, 10,000 tracked visitors/mo, 100 chat sessions/mo); 15-day free trial on paid tiers. |
+| **[6sense](https://6sense.com/)** | $5.2B Valuation / ~$340M ARR | Predictive ABM platform with AI intent modeling across 1st-party web traffic, 3rd-party research signals, and CRM history. | **~$11,000 – $30,000/year** (Entry-level modules; median deployments ~$55,000/yr) | **No permanent free tier**; interactive demo and guided trial via sales only (annual contract required). |
+| **[Demandbase](https://www.demandbase.com/)** | ~$320M Funding / >$200M ARR | Enterprise go-to-market and account-based marketing platform combining real-time reverse-IP tracking with B2B advertising. | **~$45,000 – $60,000/year** (~$3,750/mo billed annually for entry tier) | **No permanent free tier**; custom guided sales evaluation only (annual contract required). |
+| **[Lead Forensics](https://www.leadforensics.com/)** | Privately Held / ~$45M – $50M ARR | Real-time IP-to-company tracking platform with proprietary enterprise reverse-IP database and automated contact discovery. | **~$6,000/year** (~$500/mo billed annually for low-traffic sites) | **No permanent free tier**; 7-day to 14-day guided trial available after product demonstration. |
+| **[Leadfeeder (Dealfront)](https://www.leadfeeder.com/)** | PE-backed / ~$18M ARR | Website visitor identification platform using Google Analytics and DNS telemetry to unmask visiting accounts. | **€79/mo** (~$79/mo billed annually for Discover plan; €113 month-to-month) | **Free forever plan (Lite)** capped at 100 identified companies/mo and 7-day data retention; 14-day full-access free trial. |
+| **[UserGems](https://www.usergems.com/)** | ~$100M – $200M Valuation / ~$10M ARR | Relationship intelligence tracking past champions and buyers when they change jobs, combining contact-level intent with CRM triggers. | **$40,000/year** (Core plan, covers up to 4,000 target accounts and 4M platform credits) | **No permanent free tier**; no public self-serve trial (historical CRM record audit via demo only). |
+| **[Factors.ai](https://factors.ai/)** | Privately Held / ~$8M ARR | Account-based analytics, multi-touch attribution, and visitor deanonymization tool for product-led and B2B growth teams. | **$199/mo** (Self-serve entry tier; standard analytics at $599/mo billed annually) | **Free forever tier** available (basic visitor de-anonymization and reporting); 14-day trial on Growth tiers. |
+| **[Albacross](https://www.albacross.com/)** | Privately Held / ~$2M ARR | European B2B visitor tracking and account intelligence engine heavily optimized for GDPR compliance. | **€79/mo** (Starter plan billed annually, up to 100 identified companies/mo) | **14-day free trial** with full feature access (no credit card required); no permanent free tier. |
+| **[Snitcher](https://www.snitcher.com/)** | Bootstrapped / ~$1.2M ARR | Real-time B2B website visitor identification, lead scoring, and instant Slack alert integration. | **$49/mo** (Base tier up to 50 identified companies/mo; ~$35/mo billed annually) | **14-day free trial** with full features and unlimited user seats (no credit card required); no permanent free tier. |
+
+---
+
+## Open-Source GitHub Projects
+
+Curated open-source projects for self-hosted analytics, reverse-IP mapping, B2B lead generation, and automated intent orchestration—ranked by community GitHub stars:
+
+| Project | Stars | Category / Tech Stack | Description |
+| :--- | :--- | :--- | :--- |
+| **[Twenty](https://github.com/twentyhq/twenty)** | [![Stars](https://img.shields.io/github/stars/twentyhq/twenty?style=social&color=white)](https://github.com/twentyhq/twenty/stargazers) | Modern CRM / TypeScript | Developer-first, modern open-source CRM alternative to Salesforce with clean REST/GraphQL APIs, company relationship tracking, and webhook triggers for inbound lead events. |
+| **[PostHog](https://github.com/PostHog/posthog)** | [![Stars](https://img.shields.io/github/stars/PostHog/posthog?style=social&color=white)](https://github.com/PostHog/posthog/stargazers) | Product Analytics / Python & TS | Open-source product analytics suite with event tracking, session replay, feature flags, and custom webhooks to fire real-time sales alerts on high-intent user activity. |
+| **[Mautic](https://github.com/mautic/mautic)** | [![Stars](https://img.shields.io/github/stars/mautic/mautic?style=social&color=white)](https://github.com/mautic/mautic/stargazers) | Marketing Automation / PHP | Complete open-source marketing automation platform featuring IP lookup, behavioral lead scoring, user activity monitoring, and dynamic trigger-based alerts. |
+| **[OpenOutreach](https://github.com/eracle/OpenOutreach)** | [![Stars](https://img.shields.io/github/stars/eracle/OpenOutreach?style=social&color=white)](https://github.com/eracle/OpenOutreach/stargazers) | AI Outbound / Python | Autonomous AI agent system for B2B lead generation, firmographic matching, email verification, and automated outreach playbooks. |
+| **[EspoCRM](https://github.com/espocrm/espocrm)** | [![Stars](https://img.shields.io/github/stars/espocrm/espocrm?style=social&color=white)](https://github.com/espocrm/espocrm/stargazers) | Self-Hosted CRM / PHP | Production-grade open-source CRM with web-to-lead capture forms, account tracking, and automated workflow triggers for sales notifications. |
+| **[FORGE (dataforge)](https://github.com/Nuclear-Marmalade/dataforge)** | [![Stars](https://img.shields.io/github/stars/Nuclear-Marmalade/dataforge?style=social&color=white)](https://github.com/Nuclear-Marmalade/dataforge/stargazers) | Data Enrichment / Python | Open-source business data enrichment engine; alternative to Apollo and Clearbit. Enriches business databases using public government records, tech-stack scrapers, and local Ollama LLMs. |
+| **[OpenOutFind](https://github.com/eracle/OpenOutFind)** | [![Stars](https://img.shields.io/github/stars/eracle/OpenOutFind?style=social&color=white)](https://github.com/eracle/OpenOutFind/stargazers) | Lead Discovery / Python | Lightweight B2B lead finder and contact extraction script designed for pipeline enrichment and targeted account prospecting. |
+| **[p2pblocklists (IP Mapping)](https://github.com/f1lby/p2pblocklists)** | [![Stars](https://img.shields.io/github/stars/f1lby/p2pblocklists?style=social&color=white)](https://github.com/f1lby/p2pblocklists/stargazers) | IP Infrastructure / Shell | Massive IPv4 address database (3B+ addresses) enabling ASN and reverse-IP organization lookup, serving as raw data for self-hosted visitor deanonymization. |
+| **[looot-crm](https://github.com/loootai/looot-crm)** | [![Stars](https://img.shields.io/github/stars/loootai/looot-crm?style=social&color=white)](https://github.com/loootai/looot-crm/stargazers) | Modern CRM / Next.js & Supabase | Open-source CRM built on Next.js and Supabase featuring dedicated account-level buying-intent signal tabs and pipeline tracking. |
+| **[intent-engine](https://github.com/aria-agentworks/intent-engine)** | [![Stars](https://img.shields.io/github/stars/aria-agentworks/intent-engine?style=social&color=white)](https://github.com/aria-agentworks/intent-engine/stargazers) | Intent Workflows / Python | Open-source lead generation and intent-scoring agentic workspace for researching buyer signals and dispatching outbound actions. |
+
+---
+
+## Key Features & Evaluation Criteria
+
+When selecting a contextual alert platform or engineering your own stack, evaluate against these four core dimensions:
+
+1. **Deanonymization Accuracy & Match Rate**: IP-to-company resolution rate on your target geography (US vs. EU/APAC) and the ability to filter out consumer ISPs (Comcast, Verizon) from commercial domains.
+2. **Intent Signal Depth**: Granularity of tracked actions—differentiating generic homepage visits from high-intent actions (pricing page, API documentation, churn/comparison articles).
+3. **Real-Time Alert Channels**: Speed and quality of delivery to Slack, Microsoft Teams, Webhooks, or direct CRM task assignments for SDRs.
+4. **Data Privacy & Compliance**: Built-in adherence to GDPR, CCPA, and PECL rules regarding IP logging, cookie banners, and individual-level enrichment.
+
+---
+
+## How to Build a Self-Hosted Intent Stack
+
+For engineering teams seeking data sovereignty and predictable infrastructure costs:
+
+```
+[ Visitor Hits Website ]
+           │
+           ▼
+[ Open Analytics / Edge Worker (PostHog / Umami) ]
+           │
+           ├─ Log IP, Page View, Referrer & UTMs
+           ▼
+[ Reverse-IP & Enrichment Engine (p2pblocklists + FORGE) ]
+           │
+           ├─ Filter out ISP ranges
+           ├─ Resolve Company Domain & Firmographics
+           ▼
+[ Intent Scoring & Routing (Twenty CRM / Webhook) ]
+           │
+           ▼
+[ Real-Time Alert to Sales (Slack / Email / CRM Pipeline) ]
+```
+
+---
+
+## How to Contribute
+
+We welcome additions, corrections, and updates!
+1. Fork this repository.
+2. Add your SaaS tool or open-source repository into the appropriate table, following existing column formats.
+3. Ensure pricing, trial parameters, and star badges are accurate and verified.
+4. Open a Pull Request with a concise summary.
+
+---
+
+## Privacy & Compliance
+
+- **Community Curated**: This repository is an informational resource and does not constitute commercial endorsement.
+- **Data Protection Regulations**: Tracking visitor activity, processing corporate IP addresses, and enriching contact data must comply with applicable data protection laws, including GDPR (EU/UK), CCPA/CPRA (California), and local privacy mandates. Person-level tracking without explicit consent is restricted across many jurisdictions.
