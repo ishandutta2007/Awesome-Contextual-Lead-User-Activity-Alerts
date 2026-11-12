@@ -1,6 +1,6 @@
 # Awesome-Contextual-Lead-User-Activity-Alerts
 
-# Top Contextual Lead & User Activity Alerts Ecosystem
+## Top Contextual Lead & User Activity Alerts Ecosystem
 
 **Curated List of SaaS Products & Open-Source GitHub Projects**  
 *Focused on Website Visitor Deanonymization, Buying-Intent Signals & Real-Time Lead Alerts*  
