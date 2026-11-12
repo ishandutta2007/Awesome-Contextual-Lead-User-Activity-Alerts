@@ -58,9 +58,9 @@ The global B2B buyer intent data and account-based marketing (ABM) market is cur
 
 ## 🔓 Open-Source GitHub Projects
 
-Curated open-source projects for self-hosted analytics, reverse-IP mapping, B2B lead generation, and automated intent orchestration—ranked by community GitHub stars: ⭐
+Curated open-source projects for self-hosted analytics, reverse-IP mapping, B2B lead generation, and automated intent orchestration—ranked by community GitHub_Stars: ⭐
 
-| Project | ⭐ Stars | 🛠️ Tech Stack & Domain | 💡 Description |
+| Project | ⭐ GitHub_Stars | 🛠️ Tech Stack & Domain | 💡 Description |
 | :--- | :--- | :--- | :--- |
 | **[Twenty](https://github.com/twentyhq/twenty)** | [![Stars](https://img.shields.io/github/stars/twentyhq/twenty?style=social&color=white)](https://github.com/twentyhq/twenty/stargazers) | Modern CRM / TypeScript | Developer-first, modern open-source CRM alternative to Salesforce with clean REST/GraphQL APIs, company relationship tracking, and webhook triggers for inbound lead events. |
 | **[PostHog](https://github.com/PostHog/posthog)** | [![Stars](https://img.shields.io/github/stars/PostHog/posthog?style=social&color=white)](https://github.com/PostHog/posthog/stargazers) | Product Analytics / Python & TS | Open-source product analytics suite with event tracking, session replay, feature flags, and custom webhooks to fire real-time sales alerts on high-intent user activity. |
@@ -116,7 +116,7 @@ For engineering teams seeking data sovereignty and predictable infrastructure co
 We welcome additions, corrections, and updates! ✨
 1. Fork this repository. 🍴
 2. Add your SaaS tool or open-source repository into the appropriate table, following existing column formats. 📝
-3. Ensure pricing, trial parameters, and star badges are accurate and verified. ✅
+3. Ensure pricing, trial parameters, and Stars_Badges are accurate and verified. ✅
 4. Open a Pull Request with a concise summary. 🚀
 
 ---
