@@ -1,31 +1,47 @@
-# Awesome Contextual Lead & User Activity Alerts [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# Awesome Contextual Lead & User Activity Alerts
 
-> A curated list of leading SaaS products and open-source GitHub projects for B2B website visitor deanonymization, account-based buying intent detection, and real-time sales alert orchestration.
+<div align="center">
 
-**Contextual Lead & User Activity Alerts** bridge the gap between anonymous web traffic and active sales outreach. By resolving corporate IP addresses, tracking high-intent behavioral actions (pricing visits, docs exploration, feature clicks), and enriching account records, these systems push actionable buying signals straight to Slack, CRM, and sales pipelines when prospects are in-market.
+<a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a><a href="https://github.com/ishandutta2007/Awesome-Contextual-Lead-User-Activity-Alerts"><img src="https://awesome.re/badge.svg" alt="Awesome List" /></a><a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 
----
+<br/><br/>
 
-## Table of Contents
-- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
-- [SaaS & Hosted Platforms](#saas--hosted-platforms)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [Key Features & Evaluation Criteria](#key-features--evaluation-criteria)
-- [How to Build a Self-Hosted Intent Stack](#how-to-build-a-self-hosted-intent-stack)
-- [How to Contribute](#how-to-contribute)
-- [Privacy & Compliance](#privacy--compliance)
+<img src="./assets/banner.svg" alt="Awesome Contextual Lead & User Activity Alerts Banner" width="100%" />
 
----
+<p align="center">
+  <b>🎯 A curated list of leading SaaS products and open-source GitHub projects for B2B website visitor deanonymization, account-based buying intent detection, and real-time sales alert orchestration. ⚡</b>
+</p>
 
-## Sector Overview & Market Dynamics
-
-The global B2B buyer intent data and account-based marketing (ABM) market is currently valued at approximately **$2.5B – $3.5B** and is projected to expand at a **11% – 16% CAGR** toward **$7B+ by the mid-2030s**. The industry exhibits **moderate fragmentation**: top enterprise revenue platforms (HubSpot, 6sense, Demandbase, Zoho) command large shares of total contract value via bundled GTM suites, while a dynamic long-tail of agile point solutions and self-serve visitor identification platforms thrive across mid-market and SMB segments.
+</div>
 
 ---
 
-## SaaS & Hosted Platforms
+**Contextual Lead & User Activity Alerts** 🚀 bridge the critical gap between anonymous website traffic and timely outbound sales engagement. By resolving corporate IP addresses, tracking high-intent digital behaviors (pricing visits, API documentation exploration, recurring visits), and enriching account records, these intelligent tools push actionable buying signals directly to Slack, Microsoft Teams, CRMs, and SDR notification pipelines when accounts are actively in-market. 📡💼
 
-| Product | Company Size / Scale (Valuation / Revenue) | Description | Starting Pricing Tier | Free Tier / Trial Limits |
+---
+
+## 📑 Table of Contents
+- [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [☁️ SaaS & Hosted Platforms](#️-saas--hosted-platforms)
+- [🔓 Open-Source GitHub Projects](#-open-source-github-projects)
+- [🎯 Key Features & Evaluation Criteria](#-key-features--evaluation-criteria)
+- [🛠️ How to Build a Self-Hosted Intent Stack](#️-how-to-build-a-self-hosted-intent-stack)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support](#-support)
+- [📈 Star History](#-star-history)
+- [⚖️ Privacy & Compliance](#️-privacy--compliance)
+
+---
+
+## 📊 Sector Overview & Market Dynamics
+
+The global B2B buyer intent data and account-based marketing (ABM) market is currently valued at approximately **$2.5B – $3.5B** and is projected to expand at a **11% – 16% CAGR** toward **$7B+ by the mid-2030s**. 📈 The industry exhibits **moderate fragmentation**: top enterprise revenue platforms (HubSpot, 6sense, Demandbase, Zoho) command large shares of total contract value via bundled GTM suites, while a dynamic long-tail of agile point solutions and self-serve visitor identification platforms thrive across mid-market and SMB segments. 🌐
+
+---
+
+## ☁️ SaaS & Hosted Platforms
+
+| Product | 🏢 Company Scale (Valuation / ARR) | 📝 Description | 💳 Starting Pricing Tier | 🎁 Free Tier / Trial Limits |
 | :--- | :--- | :--- | :--- | :--- |
 | **[HubSpot (Clearbit / Breeze)](https://www.hubspot.com/products/breeze/intelligence)** | ~$30B+ Market Cap / $2.5B+ ARR | Enterprise CRM & marketing automation platform; integrates Clearbit IP-to-company deanonymization and Breeze Buyer Intent natively. | **$20/user/mo** (Starter Core Seat; $10/1k Breeze credit packs) | **No permanent free tier** for Buyer Intent; 14-day free trial on select Hub plans (500 free credits on paid Starter). |
 | **[Zoho Signals / SalesIQ](https://www.zoho.com/salesiq/)** | Privately Held / $1.4B+ ARR (Bootstrapped) | Real-time visitor activity alerts and live customer engagement native to the Zoho CRM ecosystem. | **$7/operator/mo** (SalesIQ billed annually; $23/user/mo for Zoho CRM Professional) | **Free forever plan** (up to 3 operators, 10,000 tracked visitors/mo, 100 chat sessions/mo); 15-day free trial on paid tiers. |
@@ -40,11 +56,11 @@ The global B2B buyer intent data and account-based marketing (ABM) market is cur
 
 ---
 
-## Open-Source GitHub Projects
+## 🔓 Open-Source GitHub Projects
 
-Curated open-source projects for self-hosted analytics, reverse-IP mapping, B2B lead generation, and automated intent orchestration—ranked by community GitHub stars:
+Curated open-source projects for self-hosted analytics, reverse-IP mapping, B2B lead generation, and automated intent orchestration—ranked by community GitHub stars: ⭐
 
-| Project | Stars | Category / Tech Stack | Description |
+| Project | ⭐ Stars | 🛠️ Tech Stack & Domain | 💡 Description |
 | :--- | :--- | :--- | :--- |
 | **[Twenty](https://github.com/twentyhq/twenty)** | [![Stars](https://img.shields.io/github/stars/twentyhq/twenty?style=social&color=white)](https://github.com/twentyhq/twenty/stargazers) | Modern CRM / TypeScript | Developer-first, modern open-source CRM alternative to Salesforce with clean REST/GraphQL APIs, company relationship tracking, and webhook triggers for inbound lead events. |
 | **[PostHog](https://github.com/PostHog/posthog)** | [![Stars](https://img.shields.io/github/stars/PostHog/posthog?style=social&color=white)](https://github.com/PostHog/posthog/stargazers) | Product Analytics / Python & TS | Open-source product analytics suite with event tracking, session replay, feature flags, and custom webhooks to fire real-time sales alerts on high-intent user activity. |
@@ -59,20 +75,20 @@ Curated open-source projects for self-hosted analytics, reverse-IP mapping, B2B 
 
 ---
 
-## Key Features & Evaluation Criteria
+## 🎯 Key Features & Evaluation Criteria
 
-When selecting a contextual alert platform or engineering your own stack, evaluate against these four core dimensions:
+When selecting a contextual alert platform or engineering your own stack, evaluate against these four core dimensions: 🔍
 
-1. **Deanonymization Accuracy & Match Rate**: IP-to-company resolution rate on your target geography (US vs. EU/APAC) and the ability to filter out consumer ISPs (Comcast, Verizon) from commercial domains.
-2. **Intent Signal Depth**: Granularity of tracked actions—differentiating generic homepage visits from high-intent actions (pricing page, API documentation, churn/comparison articles).
-3. **Real-Time Alert Channels**: Speed and quality of delivery to Slack, Microsoft Teams, Webhooks, or direct CRM task assignments for SDRs.
-4. **Data Privacy & Compliance**: Built-in adherence to GDPR, CCPA, and PECL rules regarding IP logging, cookie banners, and individual-level enrichment.
+1. **Deanonymization Accuracy & Match Rate** 🎯: IP-to-company resolution rate on your target geography (US vs. EU/APAC) and the ability to filter out consumer ISPs (Comcast, Verizon) from commercial domains.
+2. **Intent Signal Depth** 🧠: Granularity of tracked actions—differentiating generic homepage visits from high-intent actions (pricing page, API documentation, churn/comparison articles).
+3. **Real-Time Alert Channels** ⚡: Speed and quality of delivery to Slack, Microsoft Teams, Webhooks, or direct CRM task assignments for SDRs.
+4. **Data Privacy & Compliance** 🛡️: Built-in adherence to GDPR, CCPA, and PECL rules regarding IP logging, cookie banners, and individual-level enrichment.
 
 ---
 
-## How to Build a Self-Hosted Intent Stack
+## 🛠️ How to Build a Self-Hosted Intent Stack
 
-For engineering teams seeking data sovereignty and predictable infrastructure costs:
+For engineering teams seeking data sovereignty and predictable infrastructure costs: 🧱
 
 ```
 [ Visitor Hits Website ]
@@ -95,17 +111,35 @@ For engineering teams seeking data sovereignty and predictable infrastructure co
 
 ---
 
-## How to Contribute
+## 🤝 How to Contribute
 
-We welcome additions, corrections, and updates!
-1. Fork this repository.
-2. Add your SaaS tool or open-source repository into the appropriate table, following existing column formats.
-3. Ensure pricing, trial parameters, and star badges are accurate and verified.
-4. Open a Pull Request with a concise summary.
+We welcome additions, corrections, and updates! ✨
+1. Fork this repository. 🍴
+2. Add your SaaS tool or open-source repository into the appropriate table, following existing column formats. 📝
+3. Ensure pricing, trial parameters, and star badges are accurate and verified. ✅
+4. Open a Pull Request with a concise summary. 🚀
 
 ---
 
-## Privacy & Compliance
+## 💖 Support
 
-- **Community Curated**: This repository is an informational resource and does not constitute commercial endorsement.
-- **Data Protection Regulations**: Tracking visitor activity, processing corporate IP addresses, and enriching contact data must comply with applicable data protection laws, including GDPR (EU/UK), CCPA/CPRA (California), and local privacy mandates. Person-level tracking without explicit consent is restricted across many jurisdictions.
+Thank you for exploring and supporting **Awesome-Contextual-Lead-User-Activity-Alerts**! 🙏
+
+If you find this repository valuable:
+- ⭐ **Star** this repository to help others discover it!
+- 🍴 **Fork** and contribute your favorite intent tools and workflows!
+- 📢 **Share** it with your sales engineering, RevOps, and marketing teams!
+- ☕ Consider buying a coffee or sponsoring continued maintenance: **[Sponsor on GitHub](https://github.com/sponsors/ishandutta2007)** ❤️
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://www.star-history.com/svg?repos=ishandutta2007/Awesome-Contextual-Lead-User-Activity-Alerts&type=date&legend=top-left)](https://www.star-history.com/#ishandutta2007/Awesome-Contextual-Lead-User-Activity-Alerts&type=date&legend=top-left)
+
+---
+
+## ⚖️ Privacy & Compliance
+
+- **Community Curated** 🌐: This repository is an informational resource and does not constitute commercial endorsement.
+- **Data Protection Regulations** 🔒: Tracking visitor activity, processing corporate IP addresses, and enriching contact data must comply with applicable data protection laws, including GDPR (EU/UK), CCPA/CPRA (California), and local privacy mandates. Person-level tracking without explicit consent is restricted across many jurisdictions.
